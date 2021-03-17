@@ -3,19 +3,20 @@ import { Link } from 'react-router-dom';
 
 function Navigation(){
     return(
-        <div>
-            <div>
-                <h1>Navigation</h1>
-                {/* <Link to='/' className={`block px-4 py-2 rounded-md`}>Home</Link> */}
-                <div>
-                {/* <Link to={`/about`}>About</Link> */}
-                </div>
-                {/* <Link to='/contact' className={`block px-4 py-2 rounded-md`}>Contact</Link>
-                <Link to='/' className={`block px-4 py-2 rounded-md`}>Home</Link>
-                <Link to='/design' className={`block px-4 py-2 rounded-md`}>Design</Link>
-                <Link to='/development' className={`block px-4 py-2 rounded-md`}>development</Link> */}
+        <div className={'bg-purple-700 py-10 px-10 grid grid-cols-6 gap-4 dark:bg-blue-200'}>
+            <div className={'col-start-1 col-end-4 font-poppins text-purple-400'}>
+            <Link to={'/about'} className={'p-2 rounded hover:bg-purple-500 active:bg-purple-600'}>About</Link>
+            <Link to={'/design'} className={'p-2'}>Design</Link>
+            <Link to={'/development'} className={'p-2'}>Development</Link>
+            <Link to={'/contact'} className={'p-2'}>Contact</Link>
+            </div>
+            <div className={'col-end-7 col-span-2 font-poppins text-purple-500'}>
+                <Link to={'/'}>
+                <h1 className={'text-right'}>Jessica Leah Wolff</h1>
+                </Link>
             </div>
         </div>
+        
     )
     
 };
