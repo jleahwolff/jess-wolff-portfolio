@@ -24,10 +24,10 @@ function Stars(){
         ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
         ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
         ball.style.transform = `scale(${Math.random()})`;
-        ball.style.width = `.25em`;
+        ball.style.width = `.15em`;
         ball.style.borderRadius = '100%';
         ball.style.position = 'absolute';
-        ball.style.opacity = '50%';
+        ball.style.opacity = '100%';
         ball.style.zIndex = 0;
         ball.style.height = ball.style.width;
 
@@ -49,7 +49,7 @@ function Stars(){
             { transform: `translate(${to.x}rem, ${to.y}rem)` }
             ],
             {
-            duration: (Math.random() + 1) * 10000, // random duration
+            duration: (Math.random() + 1) * 15000, // random duration
             direction: "alternate",
             fill: "both",
             iterations: Infinity,

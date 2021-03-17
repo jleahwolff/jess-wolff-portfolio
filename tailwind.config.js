@@ -6,6 +6,10 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'light': "url('../assets/light-bg.svg')",
+        'dark': "url('../assets/dark-bg.svg')",
+      }),
       colors: {
         purple: {
           '100': '#D5C2DE',

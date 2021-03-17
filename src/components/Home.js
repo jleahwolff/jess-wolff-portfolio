@@ -2,19 +2,16 @@ import React from 'react';
 import Linkedin from '../assets/Vector.svg';
 import Twitter from '../assets/Twitter.svg';
 import Github from '../assets/Github.svg';
-import Moon from '../assets/moon-white.svg';
+import Moon from '../assets/moon_1.svg';
 import Stars from './Stars';
 import { useDarkMode }from '../hooks/useDarkMode.js';
 import Sun from '../assets/sun.svg';
 
-// bg-gradient-to-b from-purple-700 via-purple-500 via-purple-400 to-purple-200 dark:bg-gradient-to-b from-blue-700 via-blue-500 via-blue-400 to-blue-200
-function Home(){
-    // const [theme, setTheme] = useDarkMode();
-    // React.useEffect(() => {},[theme]);
-    const [darkMode, toggleMode] = useDarkMode("dark", false);
 
+function Home(){
+    const [darkMode, toggleMode] = useDarkMode("dark", false);
     return( 
-        <div className={'bg-purple-500 dark:bg-blue-500'}>
+        <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover'}>
         <div className={'min-h-screen flex justify-center items-center space-x-1 z-10'}>
             <div className={'font-poppins text-right'}>
                 <h1 className={'font-bold text-6xl text-white dark:text-blue-400'}>Jessica Wolff</h1>
@@ -29,13 +26,8 @@ function Home(){
             <div className="dark-mode__toggle">
                 
                 <div onClick={toggleMode}>
-                    {!darkMode ? <div className={'p-2'}><img className={'transform scale-75'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img className={'transform scale-50'} src={Moon}/></div>}
+                    {!darkMode ? <div className={'p-2'}><img className={'transform scale-75'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img className={'transform scale-75'} src={Moon}/></div>}
                 </div>
-                {/* {console.log(darkMode)} */}
-        {/* <span onClick={() => setTheme(() => theme === 'light' ? 'dark' : 'light')}>
-            {theme === 'light' ? <div className={'p-2'}><img className={'transform scale-75'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img className={'transform scale-50'} src={Moon}/></div>}
-            </span> */}
-            {/* {console.log(theme)} */}
             </div>
         </div>
         </div>
@@ -45,3 +37,16 @@ function Home(){
 }
 
 export default Home;
+
+
+
+// FIRST ATTMEPT DARKMODE
+// const [theme, setTheme] = useDarkMode();
+// React.useEffect(() => {},[theme]);
+
+
+{/* {console.log(darkMode)} */}
+{/* <span onClick={() => setTheme(() => theme === 'light' ? 'dark' : 'light')}>
+{theme === 'light' ? <div className={'p-2'}><img className={'transform scale-75'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img className={'transform scale-50'} src={Moon}/></div>}
+</span> */}
+{/* {console.log(theme)} */}
