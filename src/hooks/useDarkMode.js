@@ -2,14 +2,16 @@ import { useEffect, useState } from 'react';
 
 function useDarkMode() {
 const [theme, setTheme] = useState('light');
-const colorTheme = theme === 'light' ? 'dark' : 'light'
+// const colorTheme = theme === 'light' ? 'light' : 'dark'
 useEffect(() => {
     const root = window.document.documentElement
-    root.classList.remove(colorTheme);
+    console.log('root', root.classList.value, 'theme', theme);
+    root.classList.remove(!theme)
     root.classList.add(theme)
-}, [theme], colorTheme)
+    // root.classList.value.
+}, [theme])
 return(
-    [colorTheme, setTheme]
+    [theme, setTheme]
 )
 };
 export default useDarkMode;
