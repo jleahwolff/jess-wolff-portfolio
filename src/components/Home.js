@@ -14,7 +14,7 @@ function Home(){
     const [darkMode, toggleMode] = useDarkMode("dark", false);
     return( 
         <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover'}>
-            
+            <Navigation/>
         <div className={'min-h-screen flex justify-center items-center space-x-1 z-10'}>
             <div className={'font-poppins text-right'}>
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
