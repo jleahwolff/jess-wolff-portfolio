@@ -10,6 +10,22 @@ module.exports = {
         'light': "url('../assets/light-bg.svg')",
         'dark': "url('../assets/dark-bg.svg')",
       }),
+      animation: {
+        sunMoon: 'enterS 3s 1 ease-in-out',
+        darkTransition: '1s ease-in-out'
+      },
+      keyframes: {
+        enterS: {
+          '0%':{
+            opacity: '0',
+            transform: 'translate(0, 100%)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0,0)'
+          }
+        }
+      },
       colors: {
         purple: {
           '100': '#D5C2DE',
@@ -19,6 +35,12 @@ module.exports = {
           '500': '#3F447E',
           '600': '#222C4F',
           '700': '#151C2C'
+        },
+        sunset: {
+          '100': '#FED987',
+          '200': '#FBA55A',
+          '300': '#D0605E',
+          '400': '#745669'
         }
       }
     },
@@ -870,7 +892,8 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
     extend: {
-      backgroundColor: ['active'],
+      backgroundColor: ['checked'],
+      backgroundImage: ['dark'],
       transform:['hover', 'focus', 'active'],
     }
   },
