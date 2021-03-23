@@ -8,7 +8,6 @@ function About(){
 
     return(
         <div className={'min-h-screen pt-2 bg-white dark:bg-purple-700'}>
-        <InternalNav/>
         <div className={'flex justify-center pt-40'}>
         <div className={'w-3/12'}>
             <img className={'scale-150'} src={Portrait}/>

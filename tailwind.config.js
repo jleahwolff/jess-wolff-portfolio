@@ -12,7 +12,8 @@ module.exports = {
       }),
       animation: {
         sunMoon: 'enterS 3s 1 ease-in-out',
-        darkTransition: '1s ease-in-out'
+        darkTransition: '1s ease-in-out',
+        continualRotate: 'threeSixty 20s infinite linear'
       },
       keyframes: {
         enterS: {
@@ -23,6 +24,14 @@ module.exports = {
           '100%': {
             opacity: '1',
             transform: 'translateY(0,0)'
+          }
+        },
+        threeSixty: {
+          '0%': {
+            transform: 'rotate(0deg)'
+          },
+          '100%': {
+            transform: 'rotate(359deg)'
           }
         }
       },
@@ -43,7 +52,7 @@ module.exports = {
           '400': '#745669'
         }
       }
-    },
+    }, 
     screens: {
       sm: '640px',
       md: '768px',
