@@ -54,16 +54,10 @@ function Home(){
             When I'm not in front of a computer screen, I'm spending time with
             my 4-year-old Australian Shepherd, Bear, and playing beach
             volleyball with my fiance, Nick.</p>
-            <h4 className={'font-bold text-lg'}>Specialties</h4>
             <p className={'font-normal text-lg max-w-lg pb-10'}>
                 Languages: HTML, CSS, JS, VueJS, React
                 Design: Figma, Adobe Creative Suite: Illustrator, AfterEffects,
                 InDesign CC, Photoshop CC, Lightroom Classic
-                <br/><br/>
-                <h4 className={'font-bold text-lg'}>Additional experience with:</h4>
-                <p className={'font-normal text-lg max-w-lg pb-10'}>
-                TailwindCSS, LESS, SASS, MaterialUI, GreenSock
-                </p>
             </p>
             </div>
         </div>
