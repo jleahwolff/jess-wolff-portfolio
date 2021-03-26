@@ -19,4 +19,11 @@ Jessica Wolff is a designer and developer from Duluth, Minnesota.
 
 ## Google Domains
     - https://dev.to/lost_semicolon/netlify-and-google-domains-hm3
-hello
+
+
+# To Do Checklist
+[] Change favicon
+[] Responsive for tablet & mobile
+[] Replace links
+[] Update Experience descriptions
+[] Add Education section
