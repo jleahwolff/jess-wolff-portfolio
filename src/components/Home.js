@@ -1,23 +1,11 @@
 import React from 'react';
-// import Navigation from './Navigation';
-// import DarkTriFill from '../assets/dark-tri-fill.svg';
 import DarkTriOut from '../assets/datrout.svg';
-// import DarkCirFill from '../assets/dark-circle-fill.svg';
-// import DarkCirOut from '../assets/dark-circle-outline.svg';
-// import LightTriFill from '../assets/light-tri-fill.svg';
-// import LightTriOut from '../assets/light-tri-outline.svg';
-// import LightCirFill from '../assets/light-circle-fill.svg';
 import LightCirOut from '../assets/licirout.svg';
 import IllText from '../assets/illustrated-text.svg';
 import SomeText from '../assets/some-text.svg';
-
-// import UncontrolledLottie from './UncontrolledLottie';
-
 import Portrait from '../assets/portrait-1.svg';
 import LightSquiggle from '../assets/squiggle-lighter.svg';
 import DarkSquiggle from '../assets/squiggle-darker.svg';
-import Computer from '../assets/comp.png';
-
 import Linkedin from '../assets/Vector.svg';
 import Twitter from '../assets/Twitter.svg';
 import Github from '../assets/Github.svg';
@@ -37,14 +25,14 @@ function Home(){
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
                 <h2 className={'mt-2 font-thin text-4xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
                 <div className={'mt-2 flex flex-nowrap justify-end'}>
-                    <a href='https://www.linkedin.com/in/jwolff2/'><img className={'p-5'} src={Linkedin}/></a>
-                    <a href='https://github.com/jleahwolff'><img className={'p-5'} src={Twitter}/></a>
-                    <a href='https://twitter.com/jleahwolff'><img className={'p-5'} src={Github}/></a>
+                    <a href='https://www.linkedin.com/in/jwolff2/'><img alt='Linkedin link' className={'p-5'} src={Linkedin}/></a>
+                    <a href='https://github.com/jleahwolff'><img alt='Github link' className={'p-5'} src={Twitter}/></a>
+                    <a href='https://twitter.com/jleahwolff'><img alt='Twitter link' className={'p-5'} src={Github}/></a>
                 </div>
             </div>
             <div className={'w-3/12'}>
                 <div onClick={toggleMode}>
-                    {!darkMode ? <div className={'p-2'}><img className={'animate-sunMoon'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img className={'animate-sunMoon'} src={Moon}/></div>}
+                    {!darkMode ? <div className={'p-2'}><img alt='' className={'animate-sunMoon'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon'} src={Moon}/></div>}
                 </div>
         
         </div>
@@ -54,12 +42,12 @@ function Home(){
             <div className={'min-h-screen pt-2 bg-white dark:bg-purple-700'}>
         <div className={'flex justify-center py-40'}>
         <div className={'w-3/12'}>
-            <img className={'scale-150'} src={Portrait}/>
+            <img alt='Portrait of Jess Wolff' className={'scale-150'} src={Portrait}/>
         </div>
         <div className={'font-poppins justify-start align-center pl-20 text-left text-purple-600 dark:text-white'}>
             <h1 className={'font-bold text-5xl'}>About Me</h1>
             <h2 className={'my-5 font-normal italic text-xl'}>Visualizing life on the creative side.</h2>
-            <div>{!darkMode ? <div className={'p-2'}><img className={'w-6/12'} src={LightSquiggle}/></div> : <div className={'p-2'}><img className={'w-6/12'} src={DarkSquiggle}/></div> }</div>
+            <div>{!darkMode ? <div className={'p-2'}><img alt='' className={'w-6/12'} src={LightSquiggle}/></div> : <div className={'p-2'}><img alt='' className={'w-6/12'} src={DarkSquiggle}/></div> }</div>
             <p className={'font-normal text-lg max-w-lg py-10'}>I am a front-end web developer specializing in HTML, CSS, JS and
             the React framework. I'm passionate about learning as I work,
             designing as I develop, and finding out how things operate.
@@ -96,15 +84,15 @@ function Home(){
             
         </div>
         <div className={'w-3/12'}>
-            <img className={'w-4/12 animate-continualRotate z-10'} src={IllText}/>
-            <img className={'w-9/12 transform -translate-y-20 z-0'} src={LightCirOut}/>
+            <img alt='Text describing IllustratedJS' className={'w-4/12 animate-continualRotate z-10'} src={IllText}/>
+            <img alt='' className={'w-9/12 transform -translate-y-20 z-0'} src={LightCirOut}/>
         </div>
         </div>
         {/* ---------EXPERIENCE 2 */}
         <div className={'flex justify-center py-10'}>
         <div className={'w-3/12'}>
-            <img className={'w-9/12 transform translate-y-20 translate-x-20 rotate-90 z-0'} src={DarkTriOut}/>
-            <img className={'w-4/12 animate-continualRotate z-50'} src={SomeText}/>
+            <img alt='' className={'w-9/12 transform translate-y-20 translate-x-20 rotate-90 z-0'} src={DarkTriOut}/>
+            <img alt='Text describing SoMe' className={'w-4/12 animate-continualRotate z-50'} src={SomeText}/>
         </div>
         <div className={'font-poppins justify-center align-center text-left pl-20 text-purple-600 dark:text-purple-700'}>
         <h2 className={'font-normal italic text-xl'}>Experience</h2>
@@ -130,7 +118,3 @@ export default Home;
 
 
 
-{/* <div className={'transform -translate-y-full -translate-x-3/4 rotate-12 z-0'}>{!darkMode ? <div><img className={'w-6/12'} src={LightTriOut}/></div> : <div><img className={'w-6/12'} src={DarkTriOut}/></div> }</div> */}
-{/* <div className={'transform -translate-y-96 translate-x-full z-0'}>{!darkMode ? <div><img className={'w-4/12'} src={LightCirFill}/></div> : <div><img className={'w-4/12'} src={DarkCirFill}/></div> }</div> */}
-{/* <div className={'transform -translate-y-48 -translate-x-28 z-0'}>{!darkMode ? <div><img className={'w-1/12'} src={LightTriFill}/></div> : <div><img className={'w-1/12'} src={DarkTriFill}/></div> }</div> */}
-{/* <div className={'transform translate-y-50 translate-x-96 z-0'}>{!darkMode ? <div><img className={'w-2/12'} src={LightCirOut}/></div> : <div><img className={'w-2/12'} src={DarkCirOut}/></div> }</div> */}
