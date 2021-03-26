@@ -14,12 +14,10 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "craco --max_old_space_size=4096 start",
-    "build": "craco --max_old_space_size=4096 build",
-    "test": "craco test --env=jest-environment-jsdom-sixteen",
+    "start": "craco start",
+    "build": "CI=false craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage --watchAll=false",
-    "lint": "eslint 'src/**/*.{js,jsx}' --fix",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
     "build:watch": "postcss src/styles/tailwind.css -o src/styles/main.css --watch"
   },
