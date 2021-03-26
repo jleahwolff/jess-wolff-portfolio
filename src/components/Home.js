@@ -19,7 +19,6 @@ function Home(){
     const [darkMode, toggleMode] = useDarkMode("dark", false);
     return( 
         <div>
-        
         <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen flex justify-center items-center space-x-1 z-10'}>
             <div className={'font-poppins text-right'}>
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
@@ -66,7 +65,7 @@ function Home(){
         <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
             {/* ---------------- EXPERIENCE */}
         <div className={'flex justify-center items-center pb-10'}>
-        <div className={'font-poppins justify-center text-left pr-20 text-purple-600 dark:text-purple-700'}>
+        <div className={'font-poppins text-left pr-20 text-purple-600 dark:text-purple-700'}>
         <h2 className={'font-normal italic text-xl'}>Experience</h2>
         <h4 className={'font-bold text-5xl py-5'}>IllustratedJS</h4>
         <h5 className={'font-thin italic pb-1'}>Head of Product Design</h5>
@@ -88,7 +87,7 @@ function Home(){
             <img alt='' className={'w-9/12 transform translate-y-20 translate-x-20 rotate-90 z-0'} src={DarkTriOut}/>
             <img alt='Text describing SoMe' className={'w-4/12 animate-continualRotate z-50'} src={SomeText}/>
         </div>
-        <div className={'font-poppins justify-center align-center text-left pl-20 text-purple-600 dark:text-purple-700'}>
+        <div className={'font-poppins align-center text-left pl-20 text-purple-600 dark:text-purple-700'}>
         <h2 className={'font-normal italic text-xl'}>Experience</h2>
         <h4 className={'font-bold text-5xl py-5'}>Lambda Labs Studio</h4>
         <h5 className={'font-thin italic pb-1'}>Student Designer & Developer</h5>
