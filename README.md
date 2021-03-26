@@ -22,8 +22,8 @@ Jessica Wolff is a designer and developer from Duluth, Minnesota.
 
 
 # To Do Checklist
-[] Change favicon
-[] Responsive for tablet & mobile
-[] Replace links
-[] Update Experience descriptions
-[] Add Education section
+- [ ] Change favicon
+- [ ] Responsive for tablet & mobile
+- [ ] Replace links
+- [ ] Update Experience descriptions
+- [ ] Add Education section
