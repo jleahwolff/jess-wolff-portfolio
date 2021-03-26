@@ -35,7 +35,7 @@ function Home(){
         <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen flex justify-center items-center space-x-1 z-10'}>
             <div className={'font-poppins text-right'}>
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
-                <h2 className={'mt-2 font-thin text-4xl text-sunset-100 dark:text-purple-100'}>Web Developer & Designer</h2>
+                <h2 className={'mt-2 font-thin text-4xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
                 <div className={'mt-2 flex flex-nowrap justify-end'}>
                     <a href='https://www.linkedin.com/in/jwolff2/'><img className={'p-5'} src={Linkedin}/></a>
                     <a href='https://github.com/jleahwolff'><img className={'p-5'} src={Twitter}/></a>
@@ -81,9 +81,9 @@ function Home(){
         </div>
     </div>
         </section>
-        <section>
+        <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
             {/* ---------------- EXPERIENCE */}
-        <div className={'bg-sunset-100 dark:bg-purple-200 flex justify-center items-center pt-40 pb-10'}>
+        <div className={'flex justify-center items-center pb-10'}>
         <div className={'font-poppins justify-center text-left pr-20 text-purple-600 dark:text-purple-700'}>
         <h2 className={'font-normal italic text-xl'}>Experience</h2>
         <h4 className={'font-bold text-5xl py-5'}>IllustratedJS</h4>
@@ -101,7 +101,7 @@ function Home(){
         </div>
         </div>
         {/* ---------EXPERIENCE 2 */}
-        <div className={'bg-sunset-100 dark:bg-purple-200 flex justify-center py-10'}>
+        <div className={'flex justify-center py-10'}>
         <div className={'w-3/12'}>
             <img className={'w-9/12 transform translate-y-20 translate-x-20 rotate-90 z-0'} src={DarkTriOut}/>
             <img className={'w-4/12 animate-continualRotate z-50'} src={SomeText}/>
