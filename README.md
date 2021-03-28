@@ -1,9 +1,9 @@
 # Jessica Wolff's Portfolio
 # Originally created 03/03/2021
 
-SPA using ReactJS, JS, HTML, and CSS. 
+SPA using ReactJS, JS, TailwindCSS, HTML, and CSS. 
 
-Jessica Wolff is a designer and developer from Duluth, Minnesota.
+Jessica Wolff is a designer and Front-end developer from Duluth, Minnesota.
 
 # Imports
 ## TailwindCSS
@@ -25,5 +25,6 @@ Jessica Wolff is a designer and developer from Duluth, Minnesota.
 - [ ] Change favicon
 - [ ] Responsive for tablet & mobile
 - [ ] Replace links
+- [ ] Update About Me section
 - [ ] Update Experience descriptions
 - [ ] Add Education section

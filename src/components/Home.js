@@ -31,8 +31,8 @@ function Home(){
             </div>
             <div className={'w-3/12'}>
                 <div onClick={toggleMode}>
-                    {!darkMode ? <div className={'p-2'}><img alt='' className={'animate-sunMoon'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon'} src={Moon}/></div>}
-                </div>
+                    {!darkMode ? <div className={'p-2'}><img alt='' className={'animate-sunMoon cursor-pointer'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon cursor-pointer'} src={Moon}/></div>}
+                </div> 
         
         </div>
         </div>
