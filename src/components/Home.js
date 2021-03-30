@@ -13,7 +13,7 @@ import Moon from '../assets/moon_1.svg';
 import Stars from './Stars';
 import { useDarkMode }from '../hooks/useDarkMode.js';
 import Sun from '../assets/sun.svg';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/JessWolff-design-resume.pdf';
 import { Link } from 'react-router-dom';
 
 
@@ -55,14 +55,14 @@ function Home(){
                 Jessica finds creativity, dedication and organization to be the most valuable qualities for success in her career.  As an alumni of Lambda Schools Full Stack program, she believes the time working in a collaborative setting in a full stack environment was crucial in developing her love for user experience engineering, and the handoff between design and development. 
                 <br/><br/>
                 When not in front of a computer screen, she enjoys playing beach volleyball, catering to my house plants, and mountain biking with her Australian Shepherd, Bear, and fiance Nick. </p>
-            <p className={'font-normal text-lg max-w-lg pb-10'}>
-                Languages: HTML, CSS, JS, VueJS, React
-                Design: Figma, Adobe Creative Suite: Illustrator, AfterEffects,
-                InDesign CC, Photoshop CC, Lightroom Classic
-            </p>
             </div>
         </div>
     </div>
+        </section>
+        <section>
+            <div>
+
+            </div>
         </section>
         <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
             {/* ---------------- EXPERIENCE */}
