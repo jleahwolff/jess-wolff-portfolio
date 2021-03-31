@@ -3,7 +3,6 @@ import DarkTriOut from '../assets/datrout.svg';
 import LightCirOut from '../assets/licirout.svg';
 import IllText from '../assets/illustrated-text.svg';
 import SomeText from '../assets/some-text.svg';
-import Portrait from '../assets/portrait-1.svg';
 import LightSquiggle from '../assets/squiggle-lighter.svg';
 import DarkSquiggle from '../assets/squiggle-darker.svg';
 import Linkedin from '../assets/Vector.svg';
@@ -22,46 +21,32 @@ function Home(){
     return( 
         <div>
         <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen flex justify-center items-center space-x-1 z-10 flex-wrap-reverse md:flex-nowrap'}>
-            <div className={'font-poppins text-center md:text-right w-full md:w-6/12'}>
+            <div className={'text-center md:text-right w-full md:w-6/12 px-2'}>
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
-                <h2 className={'mt-2 font-thin text-4xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
-                <h6 className={'mt-2 font-thin text-lg text-white'}>Click me -> </h6>
+                <h2 className={'mt-2 font-regular text-xl md:text-2xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
                 <div className={'mt-2 flex flex-nowrap justify-center md:justify-end'}>
                     <a href='https://www.linkedin.com/in/jwolff2/' target="blank"><img alt='Linkedin link' className={'p-5'} src={Linkedin}/></a>
                     <a href='https://github.com/jleahwolff' target="blank"><img alt='Github link' className={'p-5'} src={Github}/></a>
                     <a href='mailto:jessicawolff.me@gmail.com' target="blank"><img alt='Email link' className={'p-5'} src={Email}/></a>
                 </div>
             </div>
-            <div className={'flex-grow'}>
-                <div className={'w-6/12 md:w-6/12'} onClick={toggleMode}>
-                    {!darkMode ? <div className={'p-2'}><img alt='' className={'animate-sunMoon cursor-pointer'} src={Sun}/></div> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon cursor-pointer'} src={Moon}/></div>}
+                <div className={'w-6/12'} onClick={toggleMode}>
+                    {!darkMode ? <img alt='' className={'animate-sunMoon cursor-pointer block m-auto'} src={Sun}/> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon cursor-pointer block m-auto'} src={Moon}/></div>}
                 </div> 
-        
-        </div>
         </div>
         {/* --------------- ABOUT ME */}
-        <section>
-            <div className={'min-h-screen pt-2 bg-white dark:bg-purple-700'}>
-        <div className={'flex justify-center py-40'}>
-        <div className={'w-3/12'}>
-            <img alt='Portrait of Jess Wolff' className={'scale-150'} src={Portrait}/>
-        </div>
-        <div className={'font-poppins justify-start align-center pl-20 text-left text-purple-600 dark:text-white'}>
-            <h1 className={'font-bold text-5xl'}>About Me</h1>
-            <h2 className={'my-5 font-normal italic text-xl'}>Visualizing life on the creative side.</h2>
-            <div>{!darkMode ? <div className={'p-2'}><img alt='' className={'w-6/12'} src={LightSquiggle}/></div> : <div className={'p-2'}><img alt='' className={'w-6/12'} src={DarkSquiggle}/></div> }</div>
-            <p className={'font-normal text-lg max-w-lg py-10'}>Jessica is a front-end developer and UX designer specializing in Figma, HTML, CSS, JS and React. On the team at The Cultural North, Jessica has helped expand the workload capability by 20% by building comprehensive wireframe prototypes.
+        <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
+        <div className={'flex flex-col text-center text-purple-600 dark:text-white'}>
+            <h2 className={'font-bold text-5xl'}>About Me</h2>
+            <h3 className={'my-5 font-normal italic text-xl'}>Visualizing life on the creative side.</h3>
+            <div className={'flex flex-col self-center'}>
+            <div className={'w-full'}>{!darkMode ? <img alt='' className={'w-4/12 block m-auto'} src={LightSquiggle}/> : <img alt='' className={'w-4/12 block m-auto'} src={DarkSquiggle}/> }</div>
+            <p className={'font-normal text-md md:max-w-xl max-w-sm py-10 px-2'}>Jessica is a front-end developer and UX designer specializing in Figma, HTML, CSS, JS and React. On the team at The Cultural North, Jessica has helped expand the workload capability by 20% by building comprehensive wireframe prototypes.
                 <br/><br/>
                 Jessica finds creativity, dedication and organization to be the most valuable qualities for success in her career.  As an alumni of Lambda Schools Full Stack program, she believes the time working in a collaborative setting in a full stack environment was crucial in developing her love for user experience engineering, and the handoff between design and development. 
                 <br/><br/>
                 When not in front of a computer screen, she enjoys playing beach volleyball, catering to my house plants, and mountain biking with her Australian Shepherd, Bear, and fiance Nick. </p>
             </div>
-        </div>
-    </div>
-        </section>
-        <section>
-            <div>
-
             </div>
         </section>
         <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
