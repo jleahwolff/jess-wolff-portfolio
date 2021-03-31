@@ -20,7 +20,7 @@ function Home(){
     const [darkMode, toggleMode] = useDarkMode("dark", false);
     return( 
         <div>
-        <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen flex justify-center items-center space-x-1 z-10 flex-wrap-reverse md:flex-nowrap'}>
+        <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen max-h-screen flex justify-center items-center space-x-1 z-10 flex-wrap-reverse md:flex-nowrap'}>
             <div className={'text-center md:text-right w-full md:w-6/12 px-2'}>
                 <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
                 <h2 className={'mt-2 font-regular text-xl md:text-2xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
