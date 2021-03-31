@@ -38,10 +38,10 @@ function Home(){
         <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
         <div className={'flex flex-col text-center text-purple-600 dark:text-white'}>
             <h2 className={'font-bold text-5xl'}>About Me</h2>
-            <h3 className={'my-5 font-normal italic text-xl'}>Visualizing life on the creative side.</h3>
+            <h3 className={'my-5 px-2 font-normal italic text-xl'}>Visualizing life on the creative side.</h3>
             <div className={'flex flex-col self-center'}>
             <div className={'w-full'}>{!darkMode ? <img alt='' className={'w-4/12 block m-auto'} src={LightSquiggle}/> : <img alt='' className={'w-4/12 block m-auto'} src={DarkSquiggle}/> }</div>
-            <p className={'font-normal text-md md:max-w-xl max-w-sm py-10 px-2'}>Jessica is a front-end developer and UX designer specializing in Figma, HTML, CSS, JS and React. On the team at The Cultural North, Jessica has helped expand the workload capability by 20% by building comprehensive wireframe prototypes.
+            <p className={'font-normal text-md md:max-w-xl max-w-sm py-10 px-5'}>Jessica is a front-end developer and UX designer specializing in Figma, HTML, CSS, JS and React. On the team at The Cultural North, Jessica has helped expand the workload capability by 20% by building comprehensive wireframe prototypes.
                 <br/><br/>
                 Jessica finds creativity, dedication and organization to be the most valuable qualities for success in her career.  As an alumni of Lambda Schools Full Stack program, she believes the time working in a collaborative setting in a full stack environment was crucial in developing her love for user experience engineering, and the handoff between design and development. 
                 <br/><br/>
