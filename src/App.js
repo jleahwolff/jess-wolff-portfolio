@@ -7,7 +7,7 @@ import './App.css';
 
 function App(){
   return(
-    <div className={'min-h-screen font-poppins'}>
+    <div className={'min-h-screen font-poppins overflow-x-hidden'}>
       {/* <Navigation/> */}
       <Route exact path='/'>
         <Home />
