@@ -79,7 +79,7 @@ function Home(){
                 <p className={'font-normal text-lg max-w-lg pb-10'}>
                 Social Media Strategy is a web app built on a Postgres Database, and a Node Express back-end. The backend is connected to a DS FastAPI deployment which gathers and processes data from the Twitter API. The front-end is built on React, Redux and uses Okta for authentication. 
                 </p>
-                <Link to={'/404'} className={'p-2 font-bold text-purple-500'}>Case Study ></Link>
+                <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">Case Study ></a>
             
         </div>
         </div>
