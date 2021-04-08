@@ -59,7 +59,7 @@ function Home(){
                 <p className={'font-normal text-lg max-w-lg pb-10'}>
                 illustratedJS is built for learning web developers, designed to match the learning style of the learner.  As a team, we focused on delivering intuitive visualizations to supplement the abstract concepts in development, using LottieFile animations, illustrations, video walkthrough, and documented code.
                 </p>
-                <Link to={'/404'} className={'p-2 font-bold text-purple-500'}>Case Study ></Link>
+                <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank">Case Study ></a>
         </div>
         <div className={'w-3/12'}>
             <img alt='Text describing IllustratedJS' className={'w-4/12 animate-continualRotate z-10'} src={IllText}/>
@@ -80,7 +80,6 @@ function Home(){
                 Social Media Strategy is a web app built on a Postgres Database, and a Node Express back-end. The backend is connected to a DS FastAPI deployment which gathers and processes data from the Twitter API. The front-end is built on React, Redux and uses Okta for authentication. 
                 </p>
                 <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">Case Study ></a>
-            
         </div>
         </div>
         </section>
