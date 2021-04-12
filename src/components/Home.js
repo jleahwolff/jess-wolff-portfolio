@@ -1,41 +1,25 @@
 import React from 'react';
-import DarkTriOut from '../assets/datrout.svg';
-import LightCirOut from '../assets/licirout.svg';
-import IllText from '../assets/illustrated-text.svg';
-import SomeText from '../assets/some-text.svg';
-import LightSquiggle from '../assets/squiggle-lighter.svg';
-import DarkSquiggle from '../assets/squiggle-darker.svg';
+
 import Linkedin from '../assets/Vector.svg';
 import Email from '../assets/email.svg';
 import Github from '../assets/Twitter.svg';
-import Moon from '../assets/moon_1.svg';
-import Stars from './Stars';
-import { useDarkMode }from '../hooks/useDarkMode.js';
-import Sun from '../assets/sun.svg';
 import Resume from '../assets/JessWolff-design-resume.pdf';
 import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 
 function Home(){
-    const [darkMode, toggleMode] = useDarkMode("dark", false);
     return( 
         <div>
-        <div className={'bg-light dark:bg-dark bg-no-repeat bg-cover min-h-screen max-h-screen flex justify-center items-center space-x-1 z-10 flex-wrap-reverse md:flex-nowrap'}>
-            <div className={'text-center md:text-right w-full md:w-6/12 px-2'}>
-                <h1 className={'font-bold text-6xl text-white'}>Jessica Wolff</h1>
-                <h2 className={'mt-2 font-regular text-xl md:text-2xl text-sunset-100 dark:text-purple-100'}>FE Developer & Designer</h2>
-                <div className={'mt-2 flex flex-nowrap justify-center md:justify-end'}>
-                    <a href='https://www.linkedin.com/in/jwolff2/' target="blank"><img alt='Linkedin link' className={'p-5'} src={Linkedin}/></a>
-                    <a href='https://github.com/jleahwolff' target="blank"><img alt='Github link' className={'p-5'} src={Github}/></a>
-                    <a href='mailto:jessicawolff.me@gmail.com' target="blank"><img alt='Email link' className={'p-5'} src={Email}/></a>
-                </div>
+        <div className={'bg-light bg-no-repeat bg-cover bg-bottom min-h-screen max-h-screen flex justify-center items-top flex-wrap'}>
+            <Navigation className={''}/>
+            <div className={'text-center w-full'}>
+                <h1 className={'font-bold px-2 text-7xl text-purple-700'}>Jessica Wolff</h1>
+                <h2 className={'mt-2 font-regular px-5 text-xl text-center text-purple-600'}>A Minnesota based UX Engineer visualizing life on the creative side.</h2>
             </div>
-                <div className={'w-6/12'} onClick={toggleMode}>
-                    {!darkMode ? <img alt='' className={'animate-sunMoon cursor-pointer block m-auto'} src={Sun}/> : <div className={'p-2'}><Stars/><img alt='' className={'animate-sunMoon cursor-pointer block m-auto'} src={Moon}/></div>}
-                </div> 
         </div>
         {/* --------------- ABOUT ME */}
-        <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
+        {/* <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
         <div className={'flex flex-col text-center text-purple-600 dark:text-white'}>
             <h2 className={'font-bold text-5xl'}>About Me</h2>
             <h3 className={'my-5 px-2 font-normal italic text-xl'}>Visualizing life on the creative side.</h3>
@@ -48,9 +32,9 @@ function Home(){
                 When not in front of a computer screen, she enjoys playing beach volleyball, catering to my house plants, and mountain biking with her Australian Shepherd, Bear, and fiance Nick. </p>
             </div>
             </div>
-        </section>
-        <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
+        </section> */}
             {/* ---------------- EXPERIENCE */}
+        {/* <section className={'py-40 bg-sunset-100 dark:bg-purple-200'}>
         <div className={'flex justify-center items-center pb-10'}>
         <div className={'font-poppins text-left pr-20 text-purple-600 dark:text-purple-700'}>
         <h2 className={'font-normal italic text-xl'}>Highlighted Work</h2>
@@ -66,7 +50,6 @@ function Home(){
             <img alt='' className={'w-9/12 transform -translate-y-20 z-0'} src={LightCirOut}/>
         </div>
         </div>
-        {/* ---------EXPERIENCE 2 */}
         <div className={'flex justify-center py-10'}>
         <div className={'w-3/12'}>
             <img alt='' className={'w-9/12 transform translate-y-20 translate-x-20 rotate-90 z-0'} src={DarkTriOut}/>
@@ -82,11 +65,11 @@ function Home(){
                 <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">Case Study ></a>
         </div>
         </div>
-        </section>
-        <section className={'p-10 bg-sunset-300 flex flex-row justify-center text-center text-xl'}>
+        </section> */}
+        {/* <section className={'p-10 bg-sunset-300 flex flex-row justify-center text-center text-xl'}>
                 <h5 className={'font-bold text-purple-600 pr-2'}>Want to see it all on paper?</h5>
                 <a href={Resume}><h6 className={'font-bold text-white w-1/12'}>Resume</h6></a>
-        </section>
+        </section> */}
         </div>
 )
 }
