@@ -6,6 +6,7 @@ import Github from '../assets/Twitter.svg';
 import Resume from '../assets/JessWolff-design-resume.pdf';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
+import About from './About';
 
 
 function Home(){
@@ -19,6 +20,7 @@ function Home(){
             </div>
         </div>
         {/* --------------- ABOUT ME */}
+        <About/>
         {/* <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
         <div className={'flex flex-col text-center text-purple-600 dark:text-white'}>
             <h2 className={'font-bold text-5xl'}>About Me</h2>
