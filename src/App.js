@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './components/Home';
 import FourOhFour from './components/FourOhFour';
+import About from './components/About';
 
 import { Route } from 'react-router-dom';
 import './App.css';
@@ -14,6 +15,9 @@ function App(){
       </Route>
       <Route path='/404'>
         <FourOhFour/>
+      </Route>
+      <Route path='/about'>
+        <About/>
       </Route>
     </div>
 )
