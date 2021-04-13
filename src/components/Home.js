@@ -7,7 +7,7 @@ import Resume from '../assets/JessWolff-design-resume.pdf';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 import About from './About';
-
+import Design from './Design';
 
 function Home(){
     return( 
@@ -21,6 +21,7 @@ function Home(){
         </div>
         {/* --------------- ABOUT ME */}
         <About/>
+        <Design/>
         {/* <section className={'min-h-screen py-40 bg-white dark:bg-purple-700'}>
         <div className={'flex flex-col text-center text-purple-600 dark:text-white'}>
             <h2 className={'font-bold text-5xl'}>About Me</h2>
