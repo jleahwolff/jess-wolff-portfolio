@@ -24,16 +24,16 @@ function Design(){
                     <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
                         <img src={SoMe} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-24'}/>
                         <img src={SoMeLogo} alt='Social Media Strategy logo' className={'mt-20 max-w-xs pr-32 pl-10'}/>
-                        <h4 className={'my-5 font-bold text-xl max-w-xs mx-auto'}>Streamline, optimize and track your social media presence.</h4>
-                        <p className={'italic text-sm font-thin max-w-xs mx-auto'}>User Research, Ux Engineer, Front-end</p>
+                        <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Streamline, optimize and track your social media presence.</h4>
+                        <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>User Research, Ux Engineer, Front-end</p>
                     </div>
                     </a>
-                    <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">
+                    <a href='https://www.behance.net/gallery/117105443/Case-Study-Hell-Creek-Cookers-branding' target="blank">
                     <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
                         <img src={HCCMag} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
                         <img src={HCCLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
-                        <h4 className={'my-5 font-bold text-xl max-w-xs mx-auto'}>Streamline, optimize and track your social media presence.</h4>
-                        <p className={'italic text-sm font-thin max-w-xs mx-auto'}>User Research, Ux Engineer, Front-end</p>
+                        <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Family owned. Authentic recipes. Culinary-level smoked meats.</h4>
+                        <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>Branding, Logo Design</p>
                     </div>
                     </a>
         
