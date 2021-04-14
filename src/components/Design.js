@@ -13,7 +13,7 @@ function Design(){
                 <h1 className={'font-bold px-2 text-7xl text-center text-white'}>My Work.</h1>
                 <div className={'flex justify-center text-left pt-32'}>
                 <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank" className={''}>
-                    <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-300 hover:scale-110 flex-1'}>
+                    <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-300 hover:scale-110 flex-1 h-full'}>
                         <img src={RubberDuck} alt='A dashboard ux design for Rubber Duck Finance.' className={'max-w-sm -mt-24'}/>
                         <img src={RDLogo} alt='Rubber Duck Finance logo' className={'mt-5 max-w-xs px-10'}/>
                         <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Finances are tough. Understanding them should be easy.</h4>
