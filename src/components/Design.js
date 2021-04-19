@@ -8,6 +8,7 @@ import HCCMag from '../assets/HCC-book.png';
 import IllLand from '../assets/illustrated-landing.png';
 import IlluLogo from '../assets/illu-logo.png';
 import NirvanaLogo from '../assets/nirvana-logo.jpeg';
+import NirvanaDash from '../assets/nirvana-dashboard.png';
 
 function Design(){
     return(
@@ -52,7 +53,7 @@ function Design(){
                     </a>
                     <a href='https://www.behance.net/gallery/117864613/Nirvana-Hair-Gallery' target="blank">
                     <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
-                        <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
+                        <img src={NirvanaDash} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
                         <img src={NirvanaLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
                         <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Helping a small business out of the HTML dark ages.</h4>
                         <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>UI Wireframing</p>
