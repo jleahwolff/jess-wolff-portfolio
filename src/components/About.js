@@ -9,7 +9,7 @@ function About(){
                 <p className={'font-normal text-md text-white text-justify mx-auto max-w-prose py-10 px-5 '}>
                 Jessica is a front-end developer and UX designer specializing in Figma, HTML, CSS, JS and React.
                 On the team at The Cultural North, Jessica has helped expand the workload capability by 20% by building comprehensive wireframe prototypes.
-                Jessica finds creativity, dedication and organization to be the most valuable qualities for success in her career.  As an alumni of Lambda Schools Full Stack program, she believes the time working in a collaborative setting in a full stack environment was crucial in developing her love for user experience engineering, and the handoff between design and development. 
+                <br></br>Jessica finds creativity, dedication and organization to be the most valuable qualities for success in her career.  As an alumni of Lambda Schools Full Stack program, she believes the time working in a collaborative setting in a full stack environment was crucial in developing her love for user experience engineering, and the handoff between design and development. 
                 When not in front of a computer screen, she enjoys playing beach volleyball, catering to my house plants, and mountain biking with her Australian Shepherd, Bear, and fiance Nick. </p>
             </div>
         </div>

@@ -5,10 +5,13 @@ import RDLogo from '../assets/RD-logo.png';
 import SoMeLogo from '../assets/Some-logo.png';
 import HCCLogo from '../assets/HCC-logo.png';
 import HCCMag from '../assets/HCC-book.png';
+import IllLand from '../assets/illustrated-landing.png';
+import IlluLogo from '../assets/illu-logo.png';
+import NirvanaLogo from '../assets/nirvana-logo.jpeg';
 
 function Design(){
     return(
-        <div className={'bg-purple-700 min-h-screen max-h-screen flex justify-center items-center flex-wrap'}>
+        <div className={'bg-purple-700 min-h-screen flex justify-center items-center flex-wrap'}>
             <div className={'w-full mb-20'}>
                 <h1 className={'font-bold px-2 text-7xl text-center text-white'}>My Work.</h1>
                 <div className={'flex justify-center text-left pt-32'}>
@@ -36,8 +39,34 @@ function Design(){
                         <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>Branding, Logo Design</p>
                     </div>
                     </a>
-        
                 </div>
+                {/* SECOND LINE */}
+                <div className={'flex justify-center text-left pt-48'}>
+                <a href='https://www.behance.net/gallery/117671985/Illustrated-Javascript' target="blank">
+                    <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
+                        <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
+                        <img src={IlluLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
+                        <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Reshape the way you learn.</h4>
+                        <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>UX Design, Animation</p>
+                    </div>
+                    </a>
+                    <a href='https://www.behance.net/gallery/117864613/Nirvana-Hair-Gallery' target="blank">
+                    <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
+                        <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
+                        <img src={NirvanaLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
+                        <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Helping a small business out of the HTML dark ages.</h4>
+                        <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>UI Wireframing</p>
+                    </div>
+                    </a>
+                    <a href='https://www.behance.net/gallery/117671985/Illustrated-Javascript' target="blank">
+                    <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
+                        <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
+                        <img src={IlluLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
+                        <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Reshape the way you learn.</h4>
+                        <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>UX Design, Animation</p>
+                    </div>
+                    </a>
+                    </div>
                 </div>
         </div>
     )
