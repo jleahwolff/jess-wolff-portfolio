@@ -46,7 +46,7 @@ function Design(){
                 <a href='https://www.behance.net/gallery/117671985/Illustrated-Javascript' target="blank">
                     <div className={'transform bg-white rounded p-5 mx-5 hover:bg-purple-100 transition duration-500 hover:scale-110 h-full '}>
                         <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-sm -mt-32'}/>
-                        <img src={IlluLogo} alt='Social Media Strategy logo' className={'mt-16 max-w-xs pr-32 pl-10'}/>
+                        <img src={IlluLogo} alt='Social Media Strategy logo' className={'mt-20 max-w-xs pr-32 pl-10'}/>
                         <h4 className={'mt-5 mb-2 font-bold text-xl max-w-xs mx-auto'}>Reshape the way you learn.</h4>
                         <p className={'mb-5 italic text-sm font-thin max-w-xs mx-auto'}>UX Design, Animation</p>
                     </div>
