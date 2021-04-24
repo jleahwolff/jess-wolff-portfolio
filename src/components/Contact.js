@@ -1,35 +1,21 @@
 import React, {useState, useEffect} from "react";
 import Linkedin from '../assets/Vector.svg';
-// import Email from '../assets/email.svg';
+import Email from '../assets/email.svg';
 import Github from '../assets/Twitter.svg';
 import copyModal from './copyModal';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
 function Contact() {
+const [copy, setCopy] = useState(false);
 
+const copyText = () => {
+    setCopy(true);
+    setTimeout(() => {
+        setCopy(false)
+    }, 1000)
 
-
-// ATTEMPT 2
-    // function handleCopy(){
-    //     const el = document.querySelector('#email-address');
-    //     el.focus();
-    //     el.setSelectionRange(0, el.textContent.length);
-    //     // el.select()
-    //     console.log(el.textContent, 'jess wolff email')
-    //     document.execCommand('copy');
-    // }
-    // ATTEMPT 1
-    // function handleCopy(){
-    //     var copyText = document.querySelector('#email-address');
-    //     copyText.select();
-    //     document.execCommand('copy');
-    //     // e.preventDefault();
-    //     console.log('copied email was clicked')
-    //     alert('copied content');
-    // }
-    // document.querySelector('#email-address').addEventListener('click', handleCopy)
-
-
+}
 
 return (
     <div className={'bg-gradient-to-b from-purple-700 to-purple-500 min-h-full flex justify-center items-center flex-wrap'}>
@@ -39,6 +25,12 @@ return (
             {/* <button onClick='copyClipboard()'><img alt='Email link' id='email-address' className={'p-5'} src={Email}/></button> */}
             {/* <button onClick={handleCopy} className={'cursor-pointer'} id='email-button'><h5 id='email-address'>jessicawolff.me@gmail.com</h5></button> */}
             {/* <copyModal show={showModal}/> */}
+            <CopyToClipboard text='jessicawolff.me@gmail.com' onCopy={copyText}>
+                <div className={''}>
+                    <button><img alt='Email link' id='email-address' className={'p-5'} src={Email}/></button>
+                    <span className={`copy-feedback ${copy ? "active" : ""}`}> Email Copied!</span>
+                </div>
+            </CopyToClipboard>
             </div>
     </div>
 )
