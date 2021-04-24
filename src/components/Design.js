@@ -14,6 +14,7 @@ function Design(){
     return(
         <div className={'bg-purple-700 min-h-screen flex justify-center items-center flex-wrap'}>
             <div className={'w-full mb-20'}>
+                <div id='work-section'/>
                 <h1 className={'font-bold px-2 text-7xl text-center text-white'}>My Work.</h1>
                 <div className={'flex justify-center text-left pt-32'}>
                 <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank" className={''}>
