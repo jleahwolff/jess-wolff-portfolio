@@ -16,9 +16,6 @@ function App(){
       <Route path='/404'>
         <FourOhFour/>
       </Route>
-      <Route path='/about'>
-        <About/>
-      </Route>
     </div>
 )
 }

@@ -56,22 +56,24 @@ function About(){
                 {/* SECOND LINE */}
                 <div className={'flex justify-center text-left pt-4'}>
                 <a href='https://www.behance.net/gallery/117671985/Illustrated-Javascript' target="blank">
-                    <div className={'transform bg-white rounded p-5 mx-2 hover:bg-purple-100 transition duration-500 hover:scale-95 h-full flex flex-col justify-between'}>
-                        <div>
-                        <img src={IllLand} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-xs'}/>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                            <div className={'ml-5 mt-5'}>
+                            <img src={IlluLogo} alt='Hell Creek Cookers logo' className={'max-w-xs pr-52'}/>
+                            <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>UX & ANIMATION</p>
+                            </div>
+                            <div className={'flex justify-center pb-5 px-5'}>
+                            <img src={IllLand} alt='illustratedJS landing page' className={'w-11/12'}/>
+                            </div>
                         </div>
-                        <div>
-                        <img src={IlluLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44 pt-5 pb-2'}/>
-                        <p className={'mb-2 italic text-sm font-thin max-w-xs mx-auto'}>UX Design, Animation</p>
-                        </div>
-                    </div>
                     </a>
                     <a href='https://www.behance.net/gallery/117864613/Nirvana-Hair-Gallery' target="blank">
-                    <div className={'transform bg-white rounded p-5 mx-2 hover:bg-purple-100 transition duration-500 hover:scale-95 h-full '}>
-                        <img src={NirvanaDash} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-xs'}/>
-                        <div>
-                        <img src={NirvanaLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-52 pt-5 pb-2'}/>
-                        <p className={'mb-2 italic text-sm font-thin max-w-xs mx-auto'}>UI Wireframing</p>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                        <div className={'ml-5 mt-5'}>
+                        <img src={NirvanaLogo} alt='Hell Creek Cookers logo' className={'max-w-xs pr-64'}/>
+                        <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>WIREFRAMING</p>
+                        </div>
+                        <div className={'flex justify-center pb-5 px-5'}>
+                        <img src={NirvanaDash} alt='Hell Creek Cookers logo book' className={'w-11/12'}/>
                         </div>
                     </div>
                     </a>
