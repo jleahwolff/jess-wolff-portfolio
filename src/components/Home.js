@@ -13,7 +13,7 @@ function Home(){
         <div className={'bg-light bg-no-repeat bg-cover bg-bottom min-h-screen max-h-screen'}>
             <Navigation className={'flex min-w-full '}/>
             <div className={'flex mt-20 items-center justify-center'}>
-                <img src={Jess} className={'max-w-sm'}/>
+                <img src={Jess} className={'max-w-sm pr-10'}/>
             <div className={'text-left'}>
                 <h2 className={'italic px-5 py-2 text-xl text-purple-600'}>Visualizing life on the creative side.</h2>
                 <h1 className={'font-bold px-2 text-7xl text-purple-700'}>Jessica Wolff</h1>
@@ -27,7 +27,7 @@ function Home(){
         </div>
         {/* --------------- ABOUT ME */}
         <About/>
-        <Design/>
+        {/* <Design/> */}
         <Contact/>
         </div>
 )
