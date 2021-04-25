@@ -21,7 +21,7 @@ function About(){
         <div className={'bg-dark bg-no-repeat bg-cover bg-top min-h-screen flex justify-center items-top flex-wrap'}>
             <div className={'w-full mb-20'}>
                 <div id='work-section'/>
-                <div className={'flex flex-col justify-center items-stretch text-left pt-32 sm:flex-row'}>
+                <div className={'flex flex-col justify-center items-stretch text-left pt-5 sm:flex-row'}>
                 <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank" className={''}>
                     <div className={'h-full w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95 my-2 sm:my-0'}>
                         <div className={'ml-5 mt-5'}>
