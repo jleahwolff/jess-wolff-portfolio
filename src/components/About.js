@@ -1,6 +1,6 @@
 import React from 'react';
 
-import RubberDuck from '../assets/rubber-duck.jpg';
+import RubberDuck from '../assets/rubber-duck.png';
 // import SoMe from '../assets/some-dashboard.png';
 import RDLogo from '../assets/RD-logo.png';
 import SoMeLogo from '../assets/Some-logo.png';
@@ -10,8 +10,8 @@ import IllLand from '../assets/illustrated-landing.png';
 import IlluLogo from '../assets/illu-logo.png';
 import NirvanaLogo from '../assets/nirvana-logo.jpeg';
 import NirvanaDash from '../assets/nirvana-dashboard.png';
-import RubSide from '../assets/rubber-side.png';
 import SoMe from '../assets/some.png';
+
 
 function About(){
     return(
@@ -25,30 +25,30 @@ function About(){
                         <img src={RDLogo} alt='Rubber Duck Finance logo' className={'max-w-xs pr-36'}/>
                         <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>CORE PRODUCT DESIGN</p>
                         </div>
-                        <div className={'flex justify-end'}>
-                        <img src={RubberDuck} alt='A dashboard ux design for Rubber Duck Finance.' className={'w-9/12'}/>
+                        <div className={'flex justify-end pt-2'}>
+                        <img src={RubberDuck} alt='A dashboard ux design for Rubber Duck Finance.' className={'w-8/12'}/>
                         </div>
                     </div>
                     </a>
                     <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">
                     <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
                         <div className={'ml-5 mt-5'}>
-                        <img src={SoMeLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44'}/>
+                        <img src={SoMeLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-52'}/>
                         <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>USER RESEARCH, FE</p>
                         </div>
-                        <div className={'flex justify-end'}>
-                        <img src={SoMe} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'w-7/12'}/>
+                        <div className={'flex justify-end pt-2'}>
+                        <img src={SoMe} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'w-8/12'}/>
                         </div>
                     </div>
                     </a>
                     <a href='https://www.behance.net/gallery/117105443/Case-Study-Hell-Creek-Cookers-branding' target="blank">
                     <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
                         <div className={'ml-5 mt-5'}>
-                        <img src={HCCLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44'}/>
+                        <img src={HCCLogo} alt='Hell Creek Cookers logo' className={'max-w-xs pr-52'}/>
                         <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>BRANDING</p>
                         </div>
-                        <div className={'flex justify-end'}>
-                        <img src={HCCMag} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-xs'}/>
+                        <div className={'flex justify-center'}>
+                        <img src={HCCMag} alt='Hell Creek Cookers logo book' className={'w-11/12'}/>
                         </div>
                     </div>
                     </a>
@@ -83,7 +83,7 @@ function About(){
                         <p className={'mt-2 italic text-sm font-thin'}>UX Design, Animation</p>
                         </div>
                         <div className={'flex justify-end'}>
-                        <img src={RubSide} alt='A snippet view of Rubber Duck Finance' className={'w-9/12'}/>
+                        <img src={IlluLogo} alt='A snippet view of Rubber Duck Finance' className={'w-9/12'}/>
                         </div>
                     </div>
                     </a>
