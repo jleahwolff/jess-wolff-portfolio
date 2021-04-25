@@ -18,10 +18,10 @@ import Behance from '../assets/behance-black.svg';
 
 function About(){
     return(
-        <div className={'bg-dark bg-no-repeat bg-cover bg-top min-h-screen flex justify-center items-center flex-wrap'}>
+        <div className={'bg-dark bg-no-repeat bg-cover bg-top min-h-screen flex justify-center items-top flex-wrap'}>
             <div className={'w-full mb-20'}>
                 <div id='work-section'/>
-                <div className={'flex flex-col justify-center items-stretch text-left pt-32 sm:flex-row sm:items-center'}>
+                <div className={'flex flex-col justify-center items-stretch text-left pt-32 sm:flex-row'}>
                 <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank" className={''}>
                     <div className={'h-full w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95 my-2 sm:my-0'}>
                         <div className={'ml-5 mt-5'}>
@@ -57,9 +57,9 @@ function About(){
                     </a>
                 </div>
                 {/* SECOND LINE */}
-                <div className={'flex justify-center text-left pt-4'}>
+                <div className={'flex flex-col justify-center items-stretch text-left sm:flex-row pt-0 sm:pt-4'}>
                 <a href='https://www.behance.net/gallery/117671985/Illustrated-Javascript' target="blank">
-                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95 my-2 sm:my-0'}>
                             <div className={'ml-5 mt-5'}>
                             <img src={IlluLogo} alt='Hell Creek Cookers logo' className={'max-w-xs pr-52'}/>
                             <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>UX & ANIMATION</p>
@@ -70,7 +70,7 @@ function About(){
                         </div>
                     </a>
                     <a href='https://www.behance.net/gallery/117864613/Nirvana-Hair-Gallery' target="blank">
-                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95 my-2 sm:my-0'}>
                         <div className={'ml-5 mt-5'}>
                         <img src={NirvanaLogo} alt='Hell Creek Cookers logo' className={'max-w-xs pr-64'}/>
                         <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>WIREFRAMING</p>
@@ -82,7 +82,7 @@ function About(){
                     </a>
 
                     <a href='https://www.behance.net/jesswolff' target="blank">
-                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-purple-100 transition duration-500 hover:scale-95'}>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-purple-100 transition duration-500 hover:scale-95 my-2 sm:my-0'}>
                         <div className={'ml-5 mt-5'}>
                         <img src={Behance} className={'w-2/12 mb-2'}/>
                         <p className={'mb-5 text-sm font-regular'}>View my Behance profile</p>
