@@ -8,8 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'light': "url('../assets/light-bg.svg')",
-        'dark': "url('../assets/dark-bg.svg')",
-        'rubberDuck': "url('../assets/rubber-duck.jpg')"
+        'dark': "url('../assets/dark-bg.svg')"
       }),
       animation: {
         sunMoon: 'enterS 3s 1 ease-in-out',

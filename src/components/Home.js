@@ -1,9 +1,7 @@
 import React from 'react';
 
-import Resume from '../assets/JessWolff-design-resume.pdf';
 import Navigation from './Navigation';
 import About from './About';
-import Design from './Design';
 import Contact from './Contact';
 import Jess from '../assets/profile-pic.png';
 

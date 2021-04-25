@@ -8,7 +8,6 @@ function Navigation(){
                 <Link to={'/'}
                 className={'p-5 text-purple-500'}>JLW
                 </Link>
-                <a href='#about-section' className={'p-2 m-2 rounded hover:bg-purple-100 active:bg-purple-600'}>About.</a>
                 <a href='#work-section' className={'p-2 m-2 rounded hover:bg-purple-100 active:bg-purple-600'}>My Work.</a>
                 <a href='#contact-section' className={'p-2 m-2 rounded hover:bg-purple-100 active:bg-purple-600'}>Contact.</a>
             
