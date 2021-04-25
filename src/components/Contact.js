@@ -20,7 +20,7 @@ return (
             <a href='https://www.behance.net/jesswolff' target="blank"><img alt='Behance link' className={'p-3'} src={Behance}/></a>
             <a href='https://www.linkedin.com/in/jwolff2/' target="blank"><img alt='Linkedin link' className={'p-3'} src={Linkedin}/></a>
             <a href='https://github.com/jleahwolff' target="blank"><img alt='Github link' className={'p-3'} src={Github}/></a>
-            <a href='https://github.com/jleahwolff' target="blank"><img alt='Github link' className={'p-3'} src={Medium}/></a>
+            <a href='https://jleahwolff.medium.com/' target="blank"><img alt='Github link' className={'p-3'} src={Medium}/></a>
             </div>
             <div className={'flex items-center justify-center pt-5'}>
             <h5 className={'text-white'}>Send an email to &nbsp;</h5>
