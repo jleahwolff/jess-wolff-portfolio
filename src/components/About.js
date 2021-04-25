@@ -1,7 +1,7 @@
 import React from 'react';
 
-import RubberDuck from '../assets/rubber-duck-dashboard.png';
-import SoMe from '../assets/some-dashboard.png';
+import RubberDuck from '../assets/rubber-duck.jpg';
+// import SoMe from '../assets/some-dashboard.png';
 import RDLogo from '../assets/RD-logo.png';
 import SoMeLogo from '../assets/Some-logo.png';
 import HCCLogo from '../assets/HCC-logo.png';
@@ -11,6 +11,7 @@ import IlluLogo from '../assets/illu-logo.png';
 import NirvanaLogo from '../assets/nirvana-logo.jpeg';
 import NirvanaDash from '../assets/nirvana-dashboard.png';
 import RubSide from '../assets/rubber-side.png';
+import SoMe from '../assets/some.png';
 
 function About(){
     return(
@@ -19,24 +20,36 @@ function About(){
                 <div id='work-section'/>
                 <div className={'flex justify-center text-left pt-32'}>
                 <a href='https://www.behance.net/gallery/116952765/Rubber-Duck-Finance' target="blank" className={''}>
-                    <div className={'bg-white transform rounded p-5 mx-2 hover:bg-purple-100 transition duration-300 hover:scale-95 flex-1 h-full'}>
-                        <img src={RubberDuck} alt='A dashboard ux design for Rubber Duck Finance.' className={'max-w-xs'}/>
-                        <img src={RDLogo} alt='Rubber Duck Finance logo' className={'max-w-xs pr-36 pt-5 pb-2'}/>
-                        <p className={'italic text-sm font-thin max-w-xs mx-auto'}>UX Design, Branding, Front-End</p>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                        <div className={'ml-5 mt-5'}>
+                        <img src={RDLogo} alt='Rubber Duck Finance logo' className={'max-w-xs pr-36'}/>
+                        <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>CORE PRODUCT DESIGN</p>
+                        </div>
+                        <div className={'flex justify-end'}>
+                        <img src={RubberDuck} alt='A dashboard ux design for Rubber Duck Finance.' className={'w-9/12'}/>
+                        </div>
                     </div>
                     </a>
                     <a href='https://www.behance.net/gallery/116725273/SoMe-Social-Media-Strategy' target="blank">
-                    <div className={'transform bg-white rounded p-5 mx-2 hover:bg-purple-100 transition duration-500 hover:scale-95 h-full '}>
-                        <img src={SoMe} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-xs '}/>
-                        <img src={SoMeLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44 pt-5 pb-2'}/>
-                        <p className={'italic text-sm font-thin max-w-xs mx-auto'}>User Research, Ux Engineer, Front-end</p>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                        <div className={'ml-5 mt-5'}>
+                        <img src={SoMeLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44'}/>
+                        <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>USER RESEARCH, FE</p>
+                        </div>
+                        <div className={'flex justify-end'}>
+                        <img src={SoMe} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'w-7/12'}/>
+                        </div>
                     </div>
                     </a>
                     <a href='https://www.behance.net/gallery/117105443/Case-Study-Hell-Creek-Cookers-branding' target="blank">
-                    <div className={'transform bg-white rounded p-5 mx-2 hover:bg-purple-100 transition duration-500 hover:scale-95 h-full '}>
+                    <div className={'w-72 mx-2 flex flex-col justify-between min-h-full bg-white rounded transform hover:bg-sunset-100 transition duration-500 hover:scale-95'}>
+                        <div className={'ml-5 mt-5'}>
+                        <img src={HCCLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44'}/>
+                        <p className={'text-xs font-bold text-sunset-200 max-w-xs mx-auto pt-2'}>BRANDING</p>
+                        </div>
+                        <div className={'flex justify-end'}>
                         <img src={HCCMag} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'max-w-xs'}/>
-                        <img src={HCCLogo} alt='Social Media Strategy logo' className={'max-w-xs pr-44 pt-5 pb-2'}/>
-                        <p className={'italic text-sm font-thin max-w-xs mx-auto'}>Branding, Logo Design</p>
+                        </div>
                     </div>
                     </a>
                 </div>
@@ -70,7 +83,7 @@ function About(){
                         <p className={'mt-2 italic text-sm font-thin'}>UX Design, Animation</p>
                         </div>
                         <div className={'flex justify-end'}>
-                        <img src={RubSide} alt='A dashboard of SoMe: Social Media Strategy on a Macbook Pro. UX Design' className={'w-9/12'}/>
+                        <img src={RubSide} alt='A snippet view of Rubber Duck Finance' className={'w-9/12'}/>
                         </div>
                     </div>
                     </a>
